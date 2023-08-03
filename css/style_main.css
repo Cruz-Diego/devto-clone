@@ -299,11 +299,6 @@ body {
     gap: 7rem;
   }
 }
-@media (max-width: 380px) and (min-width: 1px) {
-  .button__post {
-    display: none;
-  }
-}
 /*sponsors cards section*/
 .section__navSide_sponsor_title1 {
   background-color: rgb(255, 255, 255);
@@ -489,7 +484,7 @@ body {
     height: 1rem;
     margin-bottom: 2rem;
   }
-  #navlateralClose {
+  #navlateralClose_post {
     border: none;
     background: none;
     font-weight: bolder;
@@ -507,6 +502,17 @@ body {
   body.block {
     overflow-x: scroll;
     overflow-y: hidden;
+  }
+}
+@media (max-width: 500px) and (min-width: 1px) {
+  .button__post {
+    display: none;
+  }
+  .nav_bar {
+    padding: 0px 0px;
+  }
+  .nav_bar_conteriner_input {
+    gap: 0rem;
   }
 }
 /*menu login*/
