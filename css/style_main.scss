@@ -470,7 +470,12 @@ width: 100%;
         border: thin solid 3px lightgrey;
     }
 }
-.card__up{
+.conteiner_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card__main{
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(224, 224, 224);
     border-radius: 10px;
@@ -481,7 +486,7 @@ width: 100%;
     color: #676767;
     padding-bottom: 15px;
 }
-.card__up img{
+.card__main img{
     border-radius: 10px 10px 0px 0px;
     padding-left: 0px;
     width: 100%;
@@ -491,9 +496,11 @@ width: 100%;
     display: flex;
     padding-left: 23px;
     gap: 13px;
+    margin-top: 15px;
 }
 .user_card img{
-    width: 35px;
+    width: 45px;
+    border-radius: 100%;
 }
 .user_info p{
     margin: 0px;
@@ -599,6 +606,9 @@ width: 100%;
     }
 }
 /*navside right*/
+.card__up__aside__right{
+    height: 196px;
+}
 .list-a li a{
     text-decoration: none;
     color: black;
@@ -614,6 +624,9 @@ width: 100%;
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+.text-primary{
+    cursor: pointer;
 }
 
 
